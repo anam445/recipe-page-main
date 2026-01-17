@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'Young Serif';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/outfit/Outfit-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/outfit/Outfit-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/fonts/outfit/Outfit-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(333, 70%, 87%);
+    font-family: 'Young Serif', serif;
+    
+}
+
+.content-info {
+    width: 50%;    
+    padding: 40px;
+    background-color: hsl(33, 69%, 97%);
+    border-radius: 10px
+       
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+.preparation-time{
+    border-radius: 10px;
+    background-color: hsl(333, 70%, 87%);
+    padding: 15px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.content-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.nutrition-row{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 68%);
+    width: 100%;
+}
+
+.nutrition-name{
+    width: 70%;
+    font-weight: normal;
+    color: hsl(0, 0%, 67%);
+}
+.nutrition-amount{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+  }
+}
